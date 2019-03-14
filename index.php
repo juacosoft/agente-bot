@@ -24,7 +24,7 @@ function processMessage($update) {
         //mensaje de error
         sendMessage(array(
             "fulfillmentText"=> "Error no se recibieron datos",
-            "source"=> "example.com"
+            "source"=> "juaco.com"
         ));
     }
 }
