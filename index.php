@@ -13,10 +13,7 @@ function processMessage($update) {
         //parametros creados en el intent. En nuestro caso vendrá el nombre de la ciudad
         $params = $update["queryResult"]["parameters"];
         //obtenemos el nombre de la ciudad
-        $nombreCliente = $params["geo-city"];
-        
-        
-        
+        $nombreCliente = $params["phone"];
         
         //creamos el mensaje a mostrar al usuario
         sendMessage(array(
